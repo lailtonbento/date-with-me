@@ -1,5 +1,5 @@
 import * as React from "react";
-import {CardForm} from "@/app/card-form";
+import {CardForm} from "@/app/home/card-form";
 
 export default function Page() {
   return (
