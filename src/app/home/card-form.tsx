@@ -46,7 +46,7 @@ export function CardForm() {
                 <form onSubmit={handleSubmit}>
                     <div className="grid w-full items-center gap-4">
                         <div className="flex flex-col space-y-1.5">
-                            <Label htmlFor="name">Name</Label>
+                            <Label htmlFor="name">Seu nome</Label>
                             <Input
                                 id="name"
                                 type="text"
