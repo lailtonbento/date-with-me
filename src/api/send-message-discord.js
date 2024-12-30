@@ -7,7 +7,7 @@ export const sendDiscordNotification = async (pretendente) => {
     };
 
     try {
-        const response = await fetch(discordWebhookUrl, {
+        await fetch(discordWebhookUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

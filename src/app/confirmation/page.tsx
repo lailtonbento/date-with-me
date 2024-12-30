@@ -23,9 +23,9 @@ const Confirmacao: React.FC = () => {
                 try {
                     // Decodifica o parâmetro 'usuario' da URL
                     const decodedUsuario = decodeURIComponent(usuario);
-                    const [name, email, discordWebHookURL] = decodedUsuario.split(",");
+                    const [name, pretendente] = decodedUsuario.split(",");
 
-                    setUsuarioData({ name, pretendente: email });
+                    setUsuarioData({ name, pretendente });
                 } catch (error) {
                     console.error("Erro ao processar os dados do usuário:", error);
                 }
